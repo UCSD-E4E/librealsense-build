@@ -24,6 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - name: submodules-init
+        uses: snickerbockers/submodules-init@v4
 
       - name: Run Build
         run: ./build.sh
