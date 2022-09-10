@@ -28,6 +28,4 @@ rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
 dpkg-deb --build --root-owner-group $DEB_WORKING
 rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
 
-cp ./realsense-viewer.$VERSION-1_amd64.deb ./realsense-viewer.deb
-
 popd > /dev/null

@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: realsense-viewer
-          path: build/realsense-viewer.deb
+          path: build/./realsense-viewer.*_amd64.deb
