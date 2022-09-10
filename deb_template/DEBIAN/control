@@ -1,0 +1,5 @@
+Package: realsense-viewer
+Version: $VERSION
+Architecture: amd64
+Maintainer: Christopher L. Crutchfield <ccrutchf@ucsd.edu>
+Description: Viewer for Intel RealSense Camera
