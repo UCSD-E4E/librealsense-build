@@ -13,8 +13,8 @@ librealsense:
 	mkdir -p $(BUILD_DIR)
 	cd $(BUILD_DIR)
 
-	# cmake ../librealsense
-	# $(MAKE)
+	cmake ../librealsense
+	$(MAKE)
 
 	cd ..
 
