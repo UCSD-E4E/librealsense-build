@@ -30,8 +30,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          apt-get update
-          apt-get install xorg-dev libglu1-mesa-dev
+          sudo apt-get update
+          sudo apt-get install xorg-dev libglu1-mesa-dev
 
       - name: Run Build
         run: ./build.sh
