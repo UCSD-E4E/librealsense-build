@@ -34,10 +34,10 @@ jobs:
           sudo apt-get install xorg-dev libglu1-mesa-dev libusb-1.0-0-dev
 
       - name: Run Build
-        run: ./build.sh
+        run: make
 
       - name: Archive realsense viewer deb
         uses: actions/upload-artifact@v3
         with:
-          name: realsense-viewer
-          path: build/./realsense-viewer.*_amd64.deb
+          name: Debian
+          path: build/*.deb
